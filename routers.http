@@ -1,0 +1,24 @@
+POST http://localhost:3000/videos
+Content-Type: application/json
+
+{
+    "title": "Titulo 01",
+    "content": "Meu peim video",
+    "duration": 240
+}
+
+###
+GET http://localhost:3000/videos
+
+###
+PUT http://localhost:3000/videos/87e5db6a-121d-437b-9728-c37b6db4a2c6
+Content-Type: application/json
+
+{
+    "title": "titulo 05",
+    "content": "testando metodo update",
+    "duration": 340
+}
+
+###
+DELETE http://localhost:3000/videos/87e5db6a-121d-437b-9728-c37b6db4a2c6
